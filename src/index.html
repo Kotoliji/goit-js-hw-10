@@ -6,18 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./main-1.js"></script>
   </head>
-  <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
-
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
-
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
+  <body> 
+      <input type="datetime-local" class="datatimer">
+      <button class="own-button">Start</button>
+    <span class="time">
+        <div class="timer">
+          <span class="tirm" data-day>00 </span> 
+          <p>DAYS</p>
+        </div> 
+        <div class="timer">
+            <span class="tirm" data-hours>00 </span> 
+            <p>HOURS</p>
+        </div> 
+        <div class="timer">
+            <span class="tirm" data-minutes>00 </span> 
+            <p>MINUTES</p>
+        </div> 
+        <div class="timer">
+            <span class="tirm" data-seconds>00 </span> 
+            <p>SECONDS</p>
+        </div> 
+    </span>
   </body>
 </html>
